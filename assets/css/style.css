@@ -108,6 +108,8 @@ header {
 }
 
 .card {
+    display: flex;
+    flex-direction: row;
     background-image: url(../images/bar-brahe-0.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -120,12 +122,11 @@ header {
 
 .card div {
 background-color: black;
-display: inline-block;
 width: 10%;
 height: 100px;
-margin-right: 100px;
+padding: 5px 5px;
 margin-top: 150px;
-
+margin-left: 230px;
 
     
 }
@@ -134,16 +135,48 @@ margin-top: 150px;
     font-size: 2rem;
 }
 
-/* google maps */
+/* opening hours*/
 
-.find-us {
-    width: 100%;
+.opening-hours {
+    color: white;
+    width: 25%;
+    height: 25%;
+    margin: 40px auto;
+    border: 5px solid #E1C16E;
+    overflow: hidden;
+    
 }
 
-.mapouter {
-    width: 100%;
+.opening-hours ul{
+    font-size: 150%;
+    list-style: none;
 }
 
-.gmap_canvas {
+.opening-hours li {
+    border: 1px solid #E1C16E;
+}
+
+
+
+/* footer */
+
+footer {
+    color: white;
+    height: 200px;
     width: 100%;
+    border-top: 5px solid #E1C16E;
+}
+
+.social-media {
+    color: white;
+}
+
+.social-media ul {
+    color: #fff;
+    height: 150px;
+}
+
+.social-media li {
+    color: white;
+    font-size: 200%;
 }
