@@ -120,6 +120,8 @@ header {
     height: 400px;
 }
 
+
+
 .card div {
 background-color: black;
 width: 10%;
@@ -161,22 +163,54 @@ margin-left: 230px;
 /* footer */
 
 footer {
-    color: white;
-    height: 200px;
+    height: 100px;
     width: 100%;
     border-top: 5px solid #E1C16E;
+    color: #fff;
+
 }
 
 .social-media {
-    color: white;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .social-media ul {
-    color: #fff;
-    height: 150px;
+    list-style: none;
+
 }
 
-.social-media li {
-    color: white;
-    font-size: 200%;
+.social-media a {
+    text-decoration: none;
+}
+
+.social-media > li {
+    display: inline;
+    margin: 0 75px;
+    font-size: 300%;
+}
+
+.social-media i {
+    color: #fff;
+
+}
+
+
+/* form page */
+
+.booking-sect {
+    color: #fff;
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/AdobeStock_360902167-scaled.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+.tinput {
+    width: 100%;
+
 }
