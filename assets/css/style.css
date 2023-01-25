@@ -17,7 +17,7 @@ body {
 
 header {
     height: 110px;
-    border-bottom: 5px solid #E1C16E;
+    border-bottom: 2px solid #E1C16E;
     
 }
 #header-logo {
@@ -26,6 +26,7 @@ header {
     color: #E1C16E;
     border: 3px solid #E1C16E;
     padding: 5px 7px;
+    letter-spacing: 3px;
     
     
 }
@@ -43,7 +44,7 @@ header {
     margin-right: 50px;
     font-size: 1.3rem;
     font-weight: 400;
-
+    letter-spacing: 2px;
     padding: 5px;
 
 }
@@ -69,7 +70,7 @@ header {
     width: 100%;
     height: 900px;
     margin-top: 0px;
-    border-bottom: 5px solid #E1C16E;
+    border-bottom: 3px solid #E1C16E;
 
 }
 
@@ -96,7 +97,7 @@ header {
     background-position: center;
     width: 100%;
     height: 500px;
-    border-bottom: 5px solid #E1C16E;
+    border-bottom: 3px solid #E1C16E;
 
 }
 
@@ -113,7 +114,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
-    border-bottom: 5px solid #E1C16E;
+    border-bottom: 3px solid #E1C16E;
     color: #fff;
     width: 100%;
     height: 400px;
@@ -143,7 +144,7 @@ margin-left: 230px;
     width: 25%;
     height: 25%;
     margin: 40px auto;
-    border: 5px solid #E1C16E;
+    border: 3px solid #E1C16E;
     border-radius: 4px;
     overflow: hidden;
     
@@ -174,7 +175,7 @@ margin-left: 230px;
 footer {
     height: 100px;
     width: 100%;
-    border-top: 5px solid #E1C16E;
+    border-top: 3px solid #E1C16E;
     color: #fff;
 
 }
@@ -228,14 +229,14 @@ footer {
     width:40%;
     height: 25px;
     border-radius: 4px;
-    background-color: rgba(245, 245, 245, 0.692);
+    background-color: rgba(255, 255, 255, 0.849);
 }
 
 .booking-sect input[type=tel] {
     width:40%;
     height: 25px;
     border-radius: 4px;
-    background-color: rgba(245, 245, 245, 0.692);
+    background-color: rgba(255, 255, 255, 0.849);
 }
 
 .booking-form {
@@ -243,7 +244,7 @@ footer {
     height: 300px;
     border: 2px solid #E1C16E;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(0, 0, 0, 0.575);
     margin: 0 auto;
 
 }
