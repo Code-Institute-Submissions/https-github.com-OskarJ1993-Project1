@@ -26,10 +26,11 @@
         </nav>
         
     </header>
-    <main>
+    <main id="booking">
         
         
         <section class="booking-sect">
+            <div class="booking-form">
               <h2>Time To Book A Table! </h2>
            <form method="post">
                 <label for="fname">First Name</label>
@@ -40,6 +41,7 @@
                 <input type="tel" class="tinput" id="pnumber" required >
 
                 <label for="people">How many?</label>
+                <br>
                 <label for="people">1</label>
                 <input type="radio" name="how_many" id="people" value="1" required>
                 <label for="people">2</label>
@@ -56,11 +58,11 @@
                 <input type="radio" name="how_many" id="people" value="7">
                 <label for="people">8</label>
                 <input type="radio" name="how_many" id="people" value="8">
-
+                <br>
                 <label for="date">What day and time?</label>
                 <input type="datetime-local" name="datetime" id="datetime">
             </form>
-                            
+         </div>                   
     
  
 
