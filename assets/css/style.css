@@ -209,21 +209,33 @@ footer {
 }
 
 .booking-sect {
-    height: 100px;
+    height: 700px;
     width: 100%;
     padding-top: 50px;
 
 }
 
-.booking-form {
-    width: 50%;
-    border: 2px solid #E1C16E;
-    background-color: rgba(128, 128, 128, 0.164);
-    margin: 0 auto;
-
+.booking-sect input[type=text] {
+    width:40%;
+    height: 25px;
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.692);
 }
-.tinput {
-    width: 25%;
+
+.booking-sect input[type=tel] {
+    width:40%;
+    height: 25px;
+    border-radius: 4px;
+    background-color: rgba(245, 245, 245, 0.692);
+}
+
+.booking-form {
+    width: 30%;
+    height: 300px;
+    border: 2px solid #E1C16E;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin: 0 auto;
 
 }
 
@@ -234,35 +246,45 @@ footer {
 /* menu page */
 
 #menu-main {
-    background-image: url(../images/IMG-7615.jpg);
+    background-image: url(../images/alacarte-5-wide.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     height: 800px;
+    width: 100%;
 }
 
 .menu-list {
-    color: #fff;
-    border: 3px solid #E1C16E;
+    display: table;
     width: 100%;
-    height: 70%;
-    background-color: black;
-
-
-
-    
+    padding-top: 200px;
     
 }
 
-.menu-list div {
-    display: inline-block;
-    width: 21%;
-    font-size: small;
-    list-style: none;
-    margin: 100px auto;
-    
+.menu {
+    display: table-cell;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.459);
+    margin-right: 20px;
+    border: 3px solid #E1C16E;
 }
 
-.menu-list li {
+.menu-list h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    width: 100%;
+    color: #fff;
+
+}
+
+.menu li {
+    display: flex;
+    flex-direction: column;
 }
