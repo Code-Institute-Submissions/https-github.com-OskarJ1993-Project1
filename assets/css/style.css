@@ -211,13 +211,15 @@ footer {
 .booking-sect {
     height: 100px;
     width: 100%;
-    margin-bottom: 20px;
+    padding-top: 50px;
 
 }
 
 .booking-form {
     width: 50%;
     border: 2px solid #E1C16E;
+    background-color: rgba(128, 128, 128, 0.164);
+    margin: 0 auto;
 
 }
 .tinput {
@@ -225,6 +227,9 @@ footer {
 
 }
 
+.input-group{
+    width:100%;
+}
 
 /* menu page */
 

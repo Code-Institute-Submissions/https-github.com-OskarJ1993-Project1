@@ -33,13 +33,25 @@
             <div class="booking-form">
               <h2>Time To Book A Table! </h2>
            <form method="post">
+                
+            <div class="input-group">
                 <label for="fname">First Name</label>
+                <br>
                 <input type="text" class="tinput" id="fname" required>
+            </div>
+            <div class="input-group">
                 <label for="lname">Last Name</label>
+                <br>
                 <input type="text" class="tinput" id="lname" required>
+            </div>
+               
+            <div class="input-group">
                 <label for="pnumber">Phone Number</label>
+                <br>
                 <input type="tel" class="tinput" id="pnumber" required >
+            </div>
 
+               <div class="input-group">
                 <label for="people">How many?</label>
                 <br>
                 <label for="people">1</label>
@@ -59,8 +71,12 @@
                 <label for="people">8</label>
                 <input type="radio" name="how_many" id="people" value="8">
                 <br>
-                <label for="date">What day and time?</label>
+               </div>
+                <div class="input-group">
+                    <label for="datetime">What day and time?</label>
+                    <br>
                 <input type="datetime-local" name="datetime" id="datetime">
+                </div>
             </form>
          </div>                   
     
