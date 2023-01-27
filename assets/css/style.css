@@ -72,6 +72,7 @@ header {
   font-size: 1.3rem;
   color: white;
   width: 60%;
+  letter-spacing: 0.06em;
 }
 
 #main-img {
@@ -136,19 +137,24 @@ header {
 .opening-hours li {
   border: 1px solid #e1c16e;
   padding: 9px;
+  letter-spacing: 0.09em;
 }
 
 .opening-hours p {
   padding: 9px 0;
+  letter-spacing: 0.1em;
 }
 
 .opening-hours h2 {
   padding: 9px 0;
+  letter-spacing: 0.09em;
 }
 
 /* footer */
 
 footer {
+  display: flex;
+  justify-content: center;
   height: 100px;
   width: 100%;
   border-top: 3px solid #e1c16e;
@@ -169,7 +175,7 @@ footer {
 }
 
 .social-media > li {
-  display: inline;
+display: inline;
   margin: 0 75px;
   font-size: 300%;
 }
@@ -189,6 +195,12 @@ footer {
   height: 699px;
 }
 
+.booking-form h2 {
+    letter-spacing: 0.05em;
+    font-size: 1.6rem;
+    padding-top: 9px;
+}
+
 .booking-sect {
   height: 700px;
   width: 100%;
@@ -201,18 +213,44 @@ input[type="tel"] {
   height: 25px;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.849);
+  margin-top: 3px;
 }
 
 
 
 .booking-form {
   width: 30%;
-  height: 300px;
+  height: 420px;
   border: 2px solid #e1c16e;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.575);
   margin: 0 auto;
 }
+
+.input-group  {
+    font-size: 1.3rem;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.submit-btn {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.521);
+    border: 3px solid #e1c16e;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    letter-spacing: 0.11em;
+}
+
+.submit-btn:hover {
+    color: RGB(169, 169, 169);
+}
+
 
 /* menu page */
 
@@ -292,14 +330,23 @@ input[type="tel"] {
 }
 
 .contact-ep {
-    margin-top: 20px;
-    font-size: 1.3rem;
+    margin-top: 15px;
 }
-
 .contact-link {
     color: #fff;
     border-radius: 4px;
     padding: 5px;
     margin-right: 20px;
     text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.info-card h1 {
+    font-size: 1.6rem;
+    letter-spacing: 0.04em;
+}
+
+.adress-p {
+    color: #fff;
+    font-size: 1.3rem;
 }
