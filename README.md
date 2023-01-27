@@ -1,7 +1,7 @@
 # Bar & Grill
 
 ## Purpose of the Project
-The goal of this project is to design a website for our bar and grill that offers customers an easy and convenient way to access information about our menu, specials and events.
+The goal of this project is to design a website for our bar and grill that offers customers an easy and convenient way to access information about our menu and events.
 
 ## User Stories
 - As a customer, I want to be able to view the menu on the website, so I can decide what to order.
@@ -32,8 +32,8 @@ The goal of this project is to design a website for our bar and grill that offer
 - The typography will be Merriweather and with a backup of Sans-serif, the focus is readability.
 
 ## Technology
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ## Wireframes
 
