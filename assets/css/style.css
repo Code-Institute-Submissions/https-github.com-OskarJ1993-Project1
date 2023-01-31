@@ -14,6 +14,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  overflow-x: hidden ;
+  
 }
 
 /* Header */
@@ -24,12 +26,14 @@ header {
   line-height: 50px;
 }
 .header-logo {
+  display: block;
   float: left;
   margin: 20px 40px;
   color: #e1c16e;
   border: 3px solid #e1c16e;
   padding: 5px 7px;
   letter-spacing: 3px;
+  font-size: 2rem;
 }
 
 .nav-bar-list {
@@ -95,7 +99,10 @@ header {
 }
 
 .card {
-  display: flex;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
   background-image: url(../images/bar-brahe-0.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -108,11 +115,13 @@ header {
 
 .event {
   background-color: black;
-  width: 10%;
+  width: 40%;
   height: 100px;
   padding: 5px 5px;
-  margin-top: 150px;
-  margin-left: 230px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 .event h3 {
@@ -174,6 +183,10 @@ footer {
 }
 
 .social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   margin-top: 25px;
 }
@@ -204,13 +217,14 @@ display: inline;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  height: 699px;
+  height: 100vh;
 }
 
 .booking-form h2 {
     letter-spacing: 0.05em;
     font-size: 1.6rem;
     padding-top: 9px;
+    padding-bottom: 5px;
 }
 
 .booking-sect {
@@ -233,7 +247,7 @@ input[type="tel"] {
 
 .booking-form {
   width: 30%;
-  height: 420px;
+  height: 480px;
   border: 2px solid #e1c16e;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.575);
@@ -250,7 +264,7 @@ label {
     font-size: 1.3rem;
     letter-spacing: 0.05em;
     color: #fff;
-    margin-top: 7px;
+    margin-top: 9px;
 
 }
 .input-group2  {
@@ -271,6 +285,11 @@ label {
 
 #time, #datetime {
     margin-top: 8px;
+}
+
+#pnumber {
+    width: 40%;
+    margin-right: 47px;
 }
 
 
@@ -300,24 +319,26 @@ label {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 800px;
+  height: 100vh;
   width: 100%;
 }
 
 .menu-list {
+  text-align: center;
   width: 100%;
   padding-top: 200px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .menu {
-  width: 100%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.719);
-  margin-right: 20px;
   border: 3px solid #e1c16e;
-  padding: 20px;
   border-radius: 2%;
+  justify-self: center;
 }
 
 .menu-list h2 {
@@ -347,7 +368,7 @@ label {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    height: 700px;
+    height: 100vh;
 }
 
 
@@ -391,4 +412,259 @@ label {
 .adress-p {
     color: #fff;
     font-size: 1.3rem;
+}
+
+/* for small mobile screens*/
+
+@media screen and (max-width: 549px) {
+  html {
+    font-size: 60%;
+    text-align: center;
+  }
+
+  /* Header and navbar */
+  .header {
+    width: 100%;
+    height: 30%;
+
+    
+  }
+
+  .nav-bar li {
+    margin: 0 auto;
+  }
+
+  /* main index */
+  
+  .main-info p {
+    font-size: 1rem;
+  }
+
+  /*booking page */
+
+
+  .booking {
+    height: 700px;
+    width: 100%;
+  }
+
+  .booking-sect {
+    width: 100%;
+
+  }
+
+  .booking-form {
+    width: 200px;
+    height: 65%;
+  }
+
+  #pnumber {
+    width: 35%;
+    margin-right:0;
+  }
+  
+  .input-group {
+    width: 100%;
+  }
+
+  /* Contact page */
+
+  .contact-main {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 0;
+  }
+
+  .contact-info {
+    height: 90%;
+    padding-bottom: 30px;
+  }
+
+  .info-card {
+    width: 100%;
+    height: 90%;
+  }
+
+}
+
+
+/* For mid size mobile screens */
+
+@media screen and (max-width: 568px) {
+    html {
+      font-size: 50%;
+      text-align: center;
+      overflow-x: none;
+    }
+
+
+
+
+
+header {
+    width: 100%;
+    height: 30%;
+}
+
+
+
+
+ /* Nav bar */
+
+ .nav-bar {
+   display: inline-block;
+ }
+
+
+
+.nav-bar-link {
+  font-size: 1.3rem;
+}
+
+.nav-bar-list li a {
+  padding: 4px;
+  color: #fff;
+  border-radius: 2px;
+  
+}
+
+.nav-bar-link:hover {
+  border-bottom: 2px solid #e1c16e;
+}
+
+
+/* main information */
+
+.main-info h2 {
+  font-size: 2.0rem;
+  padding: 0 1rem;
+}
+
+/* events */
+
+.card {
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  grid-template-columns: 1fr;
+}
+
+.event {
+  width: 100%;
+  height: 45%;
+
+}
+
+
+
+/* Opening hours section */
+
+.opening-hours {
+  width: 60%;
+  
+}
+
+.opening-hours h2 {
+  font-size: 100%;
+}
+
+.social-media {
+  grid-template-columns:  1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-media li {
+  justify-self: center;
+  width: 100%;
+
+}
+
+/* Menu page */
+
+.menu-main {
+  height: 1550px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+.menu {
+ margin: 10px auto;
+ padding: 7px;
+  
+}
+
+/* Booking page */
+
+.booking-sect {
+
+padding-top: 150px;
+}
+
+.booking-form {
+  width: 80%;
+}
+
+
+/* Contact page */
+
+.contact-main {
+  padding-top: 20%;
+  height: 80vh;
+}
+
+.info-card {
+  width: 70%;
+}
+
+}
+
+
+/* for laptops screens */
+
+@media screen and (max-width: 1256px) {
+  
+  html {
+    font-size: 70%;
+    text-align: center;
+  }
+
+  header {
+    width: 100%;
+    height: 200px
+  }
+
+
+  .event {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content:space-between;
+    gap: 1rem;
+    width: 50%;
+    height: 50%;
+    margin-left: 40px;
+
+  }
+
+  .opening-hours {
+    width: 60%;
+  }
+
+  /* contact page */
+
+  .contact-card {
+    width: 100%;
+  }
+  .info-card {
+    width: 150%;
+    height: 300px;
+
+  }
 }
