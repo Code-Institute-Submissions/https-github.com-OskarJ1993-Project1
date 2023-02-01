@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 
 * {
@@ -16,6 +15,7 @@ body {
   margin-left: auto;
   text-align: center;
   overflow-x: hidden;
+  text-decoration: none;
 }
 
 /* Header */
@@ -76,10 +76,10 @@ header {
 }
 
 .main-info p {
-  margin: 30px auto;
+  margin: 0 auto;
   font-size: 1.3rem;
   color: white;
-  width: 60%;
+
   letter-spacing: 0.06em;
 }
 
@@ -552,7 +552,6 @@ label {
 
 @media screen and (max-width: 549px) {
   html {
-    text-align: center;
     overflow-x: hidden;
     text-decoration: none;
   }
@@ -566,21 +565,23 @@ label {
     float: none;
   }
 
+  .nav-bar-list {
+    margin: 0 auto;
+  }
+
   .nav-bar-link {
-    font-size: 0.7rem;
+    font-size: 1.3rem;
   }
 
   /* main index */
 
   .main-info {
-    padding: 0;
-    margin: 0;
+    width: 100%;
   }
 
   .main-info p {
-    font-size: 0.7rem;
-    line-height: 1rem;
-    letter-spacing: 0.1em;
+    margin: 5% 5%;
+    font-size: 0.95em;
   }
 
   /* menu page */
@@ -606,13 +607,17 @@ label {
 
   .booking-form {
     width: 70%;
-    height: 60%;
-    padding: 10%;
+    min-height: 84%;
+    padding: 8%;
   }
 
   #pnumber {
-    width: 32%;
+    width: 30%;
     margin-right: 0;
+  }
+
+  #pnumber-label {
+    font-size: 1.2rem;
   }
 
   .input-group {

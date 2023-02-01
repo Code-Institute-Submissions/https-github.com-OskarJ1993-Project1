@@ -38,26 +38,29 @@ Note: The resturant's name and location is fiction.
 ## Technology
 - HTML5
 - CSS3
+- Git (To push to my respiratory on Github)
 
 ## Wireframes
 
 [Figma Design](https://www.figma.com/file/wayT9Z27AmAV2XAdUMhyq8/Untitled?node-id=1%3A38&t=IXN6iC1Ou8AhZM1w-1 "Link to Figma")
 
 ## Testing
-The website will undergo thorough testing to ensure it functions and responsiveness.
+- The website will undergo thorough testing to ensure it functions and responsiveness.
 
 ### Code Validation
-The code will be validated using the W3C Validator, W3C jigsaw CSS validator and Am i responsive to validate there is no errors and site is responsive.
+- The code will be validated using the W3C Validator, W3C jigsaw CSS validator and Am i responsive to validate there is no errors and site is responsive.
+
+- At the time of publishing, W3C CSS Validator did not work so I used wtools.io CSS validator.
 
 ## W3C Markup validator
 - Screenshots of results:
 - ![Screenshot of HTML VALIDATOR:](assets/readme-images/html-validator.jpg)
 
 
-## W3C Jigsaw CSS Validator
+## Wtools CSS Validator
 - Screenshots of results:
 
-
+- ![Screenshot of Am I Responsive:](assets/readme-images/css-validator.jpg)
 
 ## Am I Responsive
 - Screenshots of results:
