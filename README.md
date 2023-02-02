@@ -14,7 +14,7 @@ Note: The resturant's name and location is fiction.
 - As a guest, I want to be able to view the menu on the website.
 - As a guest, I want to be able to make a reservation online.
 - As a guest, I want to be able to view opening hours.
-- As a guest, I want to be able to view the restaurant's contact information
+- As a guest, I want to be able to view the restaurant's contact information.
 - As a guest, I want to be able to find where the restaurant's is located.
 - As a guest, I want to be able to view events.
 
@@ -64,7 +64,7 @@ Note: The resturant's name and location is fiction.
 - The website will undergo thorough testing to ensure it functions and responsiveness.
 
 ### Code Validation
-- The code will be validated using the W3C Validator, W3C jigsaw CSS validator and Am i responsive to validate there is no errors and site is responsive.
+- The code will be validated using the W3C Validator, W3C jigsaw CSS validator, lighthouse test and Am i responsive to validate there is no errors and site is responsive.
 
 
 
@@ -83,6 +83,11 @@ Note: The resturant's name and location is fiction.
 
 - ![Screenshot of Am I Responsive:](assets/readme-images/responsive-test.jpg)
 
+## LightHouse test
+- Screenshots of results:
+
+- ![Screenshot of Am I Responsive:](assets/readme-images/lighthous-test.jpg)
+
 
 ## Fixed Bugs
 - When using my phone, the responsiveness did not work as expected. This was solved by adding a media querie for smaller screens.
@@ -97,7 +102,14 @@ Note: The resturant's name and location is fiction.
 ## Deployment
 The website will be deployed using the following methods:
 
-- Via Github pages:
+### Via Github pages:
+
+- Open GitHub repository and open the settings tab
+- From settings navigate to pages tab
+- Under branch, select the main branch through the dropdown menu
+- Once selected and saved, the page will be refreshed (in case of nothing happening  wait for a couple muinites and refresh page manually)
+- The refreshed page will show a detailed ribbon containing the website link and indicate a successful deployment.
+
 - [LINK TO GITHUB PAGE.](https://oskarj1993.github.io/Project1/)
  
 - ![Screenshot of site.](assets/readme-images/screenshots-of-live-readme.jpg)
@@ -110,6 +122,6 @@ The website will be deployed using the following methods:
 
 - [Stackoverflow](https://stackoverflow.com/) On stackoverflow I could find answers for every problem I had.
 
-
+- [Fontawsome](https://fontawesome.com/ For using their awsome fonts! 
 
 
