@@ -413,6 +413,9 @@ label {
     font-size: 1.4rem;
   }
 
+  a {
+    text-decoration: none;
+  }
   .event {
     width: 50%;
     height: 39%;
@@ -437,7 +440,7 @@ label {
 @media screen and (max-width: 920px) {
   html {
     text-align: center;
-    overflow-x: none;
+    overflow-x: hidden;
   }
 
   body header {
@@ -554,6 +557,7 @@ label {
   html {
     overflow-x: hidden;
     text-decoration: none;
+    text-align: center;
   }
 
   /* Header and navbar */

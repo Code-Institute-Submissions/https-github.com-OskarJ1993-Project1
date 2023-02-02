@@ -1,7 +1,9 @@
 #  LOGO Bar & Grill
+- ![Screenshot of Menu Page:](assets/readme-images/landing-page.jpg)
+
 
 ## Purpose of the Project
-For project 1 milestone, I have created a Resturant & Bar website for a local bar and grill nearby where I live.
+For project 1 milestone, I have created a Restaurant & Bar website for a local bar and grill nearby where I live.
 
 Note: The resturant's name and location is fiction.
 
@@ -13,22 +15,36 @@ Note: The resturant's name and location is fiction.
 - As a guest, I want to be able to make a reservation online.
 - As a guest, I want to be able to view opening hours.
 - As a guest, I want to be able to view the restaurant's contact information
-- As a guest, I want to be able to find where the resturant is located.
+- As a guest, I want to be able to find where the restaurant's is located.
 - As a guest, I want to be able to view events.
 
 
 
 ## Features
-- Menu displayed on website.
-- Online reservation.
-- Opening hours and location information.
-- Events.
 
+
+### Menu displayed on website.
+- ![Screenshot of Menu Page:](assets/readme-images/menu-feature.jpg)
+
+### Online reservation.
+
+- ![Screenshot of Booking Page:](assets/readme-images/booking-feature.jpg)
+
+### Opening hours and location information.
+
+- ![Screenshot of Contact Page:](assets/readme-images/contact-feature.jpg)
+
+- ![Screenshot of Opening Feature:](assets/readme-images/opening-hours-feature.jpg)
+
+
+### Events.
+
+- ![Screenshot of Opening Feature:](assets/readme-images/event-feature.jpg)
 
 
 ## Future Features
 - Home delivery.
-
+- Rating & review page.
 
 
 ## Typography and Color Scheme
@@ -50,14 +66,14 @@ Note: The resturant's name and location is fiction.
 ### Code Validation
 - The code will be validated using the W3C Validator, W3C jigsaw CSS validator and Am i responsive to validate there is no errors and site is responsive.
 
-- At the time of publishing, W3C CSS Validator did not work so I used wtools.io CSS validator.
+
 
 ## W3C Markup validator
 - Screenshots of results:
 - ![Screenshot of HTML VALIDATOR:](assets/readme-images/html-validator.jpg)
 
 
-## Wtools CSS Validator
+## W3C JIGSAW CSS Validator
 - Screenshots of results:
 
 - ![Screenshot of Am I Responsive:](assets/readme-images/css-validator.jpg)
