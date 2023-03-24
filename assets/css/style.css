@@ -325,6 +325,7 @@ label {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
   justify-content: center;
+
 }
 
 .menu {
@@ -513,7 +514,7 @@ label {
   /* Menu page */
 
   .menu-main {
-    height: 1800px;
+    height: 100%;
   }
 
   .menu-list {
