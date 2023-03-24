@@ -63,6 +63,17 @@ Note: The resturant's name and location is fiction.
 ## Testing
 - The website will undergo thorough testing to ensure it functions and responsiveness.
 
+ ### Functionallity Test
+
+| ID | Test Label | Test Action | Expected Outcome | Test Outcome |
+|----|------------|--------------------------------|--------------|------------------
+| 1 | Landing page / Welcome page | User enters site | Images, text, links work | PASS |
+| 2 | Menu page | Navigate on menu page | Images, texts, links, icons work | PASS |
+| 3 | Booking page | User books table validation | Booking a table on the booking form works | PASS |
+| 4 | Contact page | Contact icons, google maps, icons, links | clickable icons, google maps and links working | PASS |
+| 5 | Responsiveness | Tested on diffrent device sizes | Works on various diffrent screen sizes | PASS |
+
+
 ### Code Validation
 - The code will be validated using the W3C Validator, W3C jigsaw CSS validator, lighthouse test and Am i responsive to validate there is no errors and site is responsive.
 
